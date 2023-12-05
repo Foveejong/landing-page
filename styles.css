@@ -15,8 +15,6 @@ ul {
 
 .header, .img-section {
     background-color: #1F2937;
-    margin: 0;
-    padding: 0;
 }
 
 .header-logo, .right-links ul li a{
@@ -36,8 +34,10 @@ ul {
 
 .header-container {
     display: flex;
-    margin: 0px 100px;
-    height: 100%;
+    margin: 0 auto;
+    max-width: 1000px; /* edit this again when free*/
+    height: 60px;
+    padding: 0 30px;
     justify-content: space-between;
     align-items: center;
 }
