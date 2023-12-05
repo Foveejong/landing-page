@@ -152,9 +152,13 @@ ul {
 .bottom-section {
     display: flex;
     justify-content: center;
+    padding: 60px;
 }
-/* 
+
 .bottom-container {
-    max-width: 1000px;
-} */
+    max-width: 1100px;
+    background-color: #3882F6;
+    padding: 40px 130px;
+    border-radius: 8px;
+}
 
