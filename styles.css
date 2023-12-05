@@ -153,7 +153,6 @@ ul {
     display: flex;
     justify-content: center;
     padding: 60px;
-    border: black solid 1px;
 }
 
 .bottom-container {
@@ -173,5 +172,16 @@ ul {
     border-radius: 5px;
     border: 2px white solid;
     flex: none;
+    font-size: 16px;
 }
 
+.bottom-container .cta {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.bottom-container p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
